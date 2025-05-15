@@ -7,8 +7,61 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16pox;
+}
+
+:root {
+    --neutral--100: #ffffff;
+    --neutral--600: #1d1e20;
+}
+
 body {
     font-family: DM Sans,sans-serif;
     background-color: #FFF;
     color: black;
+}
+header {
+    width: 100vw;
+    max-width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header .navegation-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--neutral--100);
+    box-shadow: 0 4px 10px #0000001a;
+}
+
+.navegation-section-icon {
+    padding: 29px 0 29px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.navegation-section-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.navegation-section-start {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    color: var(--neutral--600);
+}
+
+.navegation-section-right {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
 }
