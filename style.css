@@ -25,6 +25,7 @@ body {
 }
 
 /** estilos generales */
+
 .text-medium {
     color: var(--neutral--600);
     font-size: 1rem;
@@ -35,7 +36,7 @@ body {
     color: var(--neutral--300);
 }
 
-/** Navegador 
+/** Header 
  * Navegador web
 */
 
@@ -60,6 +61,7 @@ header .navegation-section {
     padding: 29px 0 29px 40px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .navegation-section-menu {
@@ -135,3 +137,7 @@ a.navegation-start-item {
     color: var(--neutral--600);
     cursor: pointer;
 }
+
+/** Main
+ * Seccion Hero
+ */
