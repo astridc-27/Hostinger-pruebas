@@ -47,6 +47,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 999;
 }
 
 header .navegation-section {
@@ -62,6 +63,7 @@ header .navegation-section {
     display: flex;
     align-items: center;
     cursor: pointer;
+    line-height: 100%;
 }
 
 .navegation-section-menu {
@@ -141,3 +143,27 @@ a.navegation-start-item {
 /** Main
  * Seccion Hero
  */
+.main {
+    overflow: hidden;
+}
+
+.hero-section {
+    width: 100%;
+    padding: 36px 0 96px;
+}
+.principal-section {
+    max-width: 1472px;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hero-principal-img {
+    max-width: 880px;
+}
+
+.hero-img {
+    position: relative;
+    width: 100%;
+}
+
